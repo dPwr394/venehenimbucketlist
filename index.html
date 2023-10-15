@@ -13,7 +13,9 @@
           // Define an array of target dates and corresponding element IDs
           const targetDateElements = [
               { date: "June 24, 2023 20:00:00", id: "shaked_andor" },
-              { date: "Jan 1, 2015 00:00:00", id: "guy_andor" },
+              { date: "September 19, 2023 17:30:00", id: "shaked_prtl" },
+              { date: "September 19, 2023 17:30:00", id: "shaked_prtl" },
+              { date: "September 5, 2023 16:30:00", id: "eyal_at" },
           ];
 
           // Initialize the count-up timers for each target date
@@ -72,16 +74,17 @@
                   <td>אנדור</td>
                   <td>
                       <div dir="rtl" class="timer" id="shaked_andor">
-                        <span class="days"></span> ימים
-                        <span class="hours"></span> שעות
-                        <span class="minutes"></span> דקות
-                           <span class="seconds"></span> שניות
+                        <span class="days"></span> ימים <span class="hours"></span> שעות <span class="minutes"></span> דקות <span class="seconds"></span> שניות
                         </div>
                   </td>
               </tr>
               <tr>
                   <td>פורטל 2</td>
-                  <td>שנים: חודשים: שבועות: ימים: שעות: דקות: שניות:</td>
+                  <td>
+                      <div dir="rtl" class="timer" id="shaked_prtl">
+                        <span class="days"></span> ימים <span class="hours"></span> שעות <span class="minutes"></span> דקות <span class="seconds"></span> שניות
+                        </div>
+                  </td>
               </tr>
           </table>
     <br /><p> </p><br />
@@ -89,7 +92,7 @@
     <p dir="rtl"><b>נועה אליאס האמיתית והאיכותית:</b><br /> כלום. היא פשוט ראתה כל מה שיש לראות.</p>
     <!---ZUY-->
     <b><p style="font-family:Guttman Yad-Brush"; dir="rtl">גיא סיטנר המלך:</p></b>
-          <table border="1" align="right" dir="rtl">
+          <table border="1" align="right" dir="rtl" style="font-family:Guttman Yad-Brush";>
               <tr>
                   <td>אנדור</td>
                   <td>שנים: חודשים: שבועות: ימים: שעות: דקות: שניות:</td>
@@ -104,8 +107,12 @@
     <b><p dir="rtl">אייל שמואל טלפון האדגי:</p></b>
           <table border="1" align="right" dir="rtl">
               <tr>
-                  <td>זמני</td>
-                  <td>שנים: חודשים: שבועות: ימים: שעות: דקות: שניות:</td>
+                  <td>אדוונצ'ר טיים</td>
+                  <td>
+                      <div dir="rtl" class="timer" id="eyal_at">
+                        <span class="days"></span> ימים <span class="hours"></span> שעות <span class="minutes"></span> דקות <span class="seconds"></span> שניות~
+                        </div>
+                  </td>
               </tr>
               <tr>
                   <td>זמני</td>
